@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+.conteudo-principal{
+    width: 90%;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 10px 10px 5px white;
+    border-radius: 15px;
+}
+h2{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.fut{
+    width: 1500px;
+    height: 800px;
+}
+
+.pal{
+    width: 500px;
+    height: 400px;
+}
