@@ -114,6 +114,21 @@ tr{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
 }
 
+.escalacao{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 90%;
+     border: solid rgb(255, 255, 255) 1px;
+     padding: 20px;
+     margin: 50px;
+     box-shadow: 10px 10px 5px white;
+     border-radius: 15px;
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+
 footer {
     width: 90%;
     border: solid rgb(255, 255, 255) 1px;
@@ -126,6 +141,92 @@ footer {
 }
 
 footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo-perfil{
+    width: 90%;
+    border: solid rgb(255, 255, 255) 1px;
+    padding: 20px;
+    margin: 60px;
+    box-shadow: 10px 10px 5px white;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+    
+}
+
+#nome{
+    font-size: 30px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gh{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-instagram{
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+   
+}
+
+#instagram{
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+    
+}
+
+#button-git{
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+   
+}
+
+#git{
+    margin: 10px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+}
+
+#felipe{
+    width: 490px;
+    height: 480px;
+    border-radius: 50%;
+    
+}
+
+a{
+    color: white;
     text-decoration: none;
     color: white;
 }
