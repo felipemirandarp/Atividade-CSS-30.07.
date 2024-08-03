@@ -115,9 +115,7 @@ tr{
 }
 
 .escalacao{
-    display: flex;
-     align-items: center;
-     justify-content: center;
+
      width: 90%;
      border: solid rgb(255, 255, 255) 1px;
      padding: 20px;
@@ -126,6 +124,12 @@ tr{
      border-radius: 15px;
      background: rgb(2,0,36);
      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+#escalacao1{
+    width: 800px;
+    height: 780px;
+    
 }
 
 
@@ -159,21 +163,6 @@ footer a{
 
 #nome{
     font-size: 30px;
-    display: inline;
-    align-items: center;
-    justify-content: center;
-}
-
-.insta{
-    
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.gh{
-    
-    display: inline-flex;
     align-items: center;
     justify-content: center;
 }
@@ -189,9 +178,11 @@ footer a{
 }
 
 #instagram{
+    
+    align-items: center;
+    justify-content: center;
     margin: 10px;
-    font-size: 30px;
-    width: 100px;
+    width: 95px;
     height: 95px;
     border-radius: 50%;
     
@@ -209,24 +200,38 @@ footer a{
 
 #git{
     margin: 10px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100px;
     height: 95px;
-    border-radius: 50%;
 }
 
 #felipe{
     width: 490px;
     height: 480px;
     border-radius: 50%;
+    box-shadow: 7px 7px 20px white;
     
+}
+
+#button-back{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
 }
 
 a{
     color: white;
     text-decoration: none;
     color: white;
+}
+
+ul{
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
