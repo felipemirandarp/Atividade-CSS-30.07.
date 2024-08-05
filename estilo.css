@@ -81,9 +81,9 @@ tr{
 
 .table-conteiner{
     width: 100%;
-    display: flex;
-     align-items: center;
-     justify-content: center;
+    display: flex; /* cria um caixa "flexivel" para ajustar os elementos dentro dela & posiciona itens lado a lado" */
+     align-items: center; /* alinha elementos verticalmente " */
+     justify-content: center;/* alinha elementos horizotnalmente " */
 }
 
 .meu-time{
@@ -144,8 +144,8 @@ footer {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
 }
 
-footer a{
-    text-decoration: none;
+footer a{  /* se refere ao footer */
+    text-decoration: none; /* para retirar o link em baixo e a sua "decoração" */
     color: white;
 }
 
@@ -220,14 +220,16 @@ footer a{
     box-shadow: 5px 5px 5px white;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,102,121,1) 49%, rgba(0,212,255,1) 100%);
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
 
 a{
     color: white;
     text-decoration: none;
     color: white;
 }
-
 ul{
     margin: 1px;
     padding: 1px;
@@ -235,3 +237,10 @@ ul{
     align-items: center;
     justify-content: center;
 }
+
+
+button:hover{  /* :hover seletor para alterar o estilo de um botão ao mover o mouse sobre ele. */
+    opacity: 1;
+    transform: scale(1.05);
+}
+
